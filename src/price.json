@@ -1,0 +1,103 @@
+{
+    "cuttingPrices": [
+        {
+            "thickness": 0.8,
+            "under100": 41,
+            "from100to500": 25,
+            "from500to1000": 23,
+            "holePrice": 1
+        },
+        {
+            "thickness": 1,
+            "under100": 41,
+            "from100to500": 25,
+            "from500to1000": 23,
+            "holePrice": 1
+        },
+        {
+            "thickness": 1.5,
+            "under100": 42,
+            "from100to500": 30,
+            "from500to1000": 27,
+            "holePrice": 1
+        },
+        {
+            "thickness": 2,
+            "under100": 44,
+            "from100to500": 34,
+            "from500to1000": 31,
+            "holePrice": 1
+        },
+        {
+            "thickness": 2.5,
+            "under100": 50,
+            "from100to500": 42,
+            "from500to1000": 38,
+            "holePrice": 1
+        },
+        {
+            "thickness": 3,
+            "under100": 59,
+            "from100to500": 49,
+            "from500to1000": 44,
+            "holePrice": 1
+        },
+        {
+            "thickness": 4,
+            "under100": 68,
+            "from100to500": 55,
+            "from500to1000": 50,
+            "holePrice": 2
+        },
+        {
+            "thickness": 5,
+            "under100": 81,
+            "from100to500": 64,
+            "from500to1000": 59,
+            "holePrice": 2
+        },
+        {
+            "thickness": 6,
+            "under100": 104,
+            "from100to500": 74,
+            "from500to1000": 68,
+            "holePrice": 2
+        },
+        {
+            "thickness": 8,
+            "under100": 144,
+            "from100to500": 95,
+            "from500to1000": 86,
+            "holePrice": 2
+        },
+        {
+            "thickness": 10,
+            "under100": 194,
+            "from100to500": 158,
+            "from500to1000": 119,
+            "holePrice": 5
+        },
+        {
+            "thickness": 12,
+            "under100": 234,
+            "from100to500": 180,
+            "from500to1000": 149,
+            "holePrice": 5
+        },
+        {
+            "thickness": 16,
+            "under100": 405,
+            "from100to500": 297,
+            "from500to1000": 270,
+            "holePrice": 10
+        },
+        {
+            "thickness": 20,
+            "under100": 495,
+            "from100to500": 446,
+            "from500to1000": 405,
+            "holePrice": 10
+        }
+    ],
+    "metalPrice": 90000
+}
