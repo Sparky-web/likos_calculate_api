@@ -3,9 +3,16 @@ import { Hono, Context, Handler } from 'hono'
 import { MiddlewareHandlerInterface } from 'hono/types'
 import { ZodSchema, z } from 'zod'
 import calculate from './calculate'
+
+import dotenv from 'dotenv'
+dotenv.config()
+
 import price from './price.json'
 
 const app = new Hono()
+
+const PORT = process.env.PORT || 3000
+const HOST = process.env.HOST || '127.0.0.1'
 
 const triangle = z.object({
     shape: z.literal("triangle"),
@@ -93,5 +100,4 @@ app.post('/calculate', validate(calculationSchema), async (context) => {
 })
 
 
-
-serve(app)
+serve({fetch: app.fetch, port: Number(PORT) })
